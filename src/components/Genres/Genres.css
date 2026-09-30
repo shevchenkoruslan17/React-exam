@@ -1,0 +1,33 @@
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.genres button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease,
+                color 0.2s ease,
+                border-color 0.2s ease,
+                transform 0.2s ease;
+}
+.genres button:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    transform: translateY(-1px);
+}
+.genres button:active {
+    transform: translateY(0);
+}
+.genres button:focus-visible {
+    outline: 2px solid #333;
+    outline-offset: 2px;
+}

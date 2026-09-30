@@ -1,0 +1,11 @@
+.genre-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background-color: #2a2a2a;
+    color: #e5e5e5;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}

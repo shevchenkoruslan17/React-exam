@@ -1,0 +1,42 @@
+.movie-info {
+    padding: 16px;
+}
+.movie-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #fff;
+}
+.movie-date {
+    margin: 0 0 10px;
+    color: #aaa;
+    font-size: 14px;
+}
+.movie-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+.movie-rating-value {
+    color: #f5c518;
+    font-size: 14px;
+    font-weight: 700;
+}
+.movie-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+.movie-description {
+    margin: 0;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

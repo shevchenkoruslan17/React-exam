@@ -1,0 +1,9 @@
+.stars-rating {
+    display: inline-flex;
+    align-items: center;
+    color: #f5c518;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1;
+    white-space: nowrap;
+}
