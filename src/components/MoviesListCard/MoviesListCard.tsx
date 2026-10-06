@@ -9,9 +9,9 @@ interface MoviesListCardProps {
     movie: IMovie;
     genres: IGenre[];
 }
-const MoviesListCard = ({movie, genres,}:MoviesListCardProps)=> {
+const MoviesListCard = ({movie, genres,}:MoviesListCardProps) => {
     return (
-        <Link className="movie-card-link" to={`/movies/${movie.id}`}>
+        <Link to={`/movies/${movie.id}`} className="movie-card-link">
             <article className="movie-card">
                 <PosterPreview posterPath={movie.poster_path} title={movie.title}/>
                 <MovieInfo movie={movie} genres={genres}/>

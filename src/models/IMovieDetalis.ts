@@ -1,5 +1,7 @@
-import type { IGenre } from "./IGenre";
-
+export interface IMovieDetailsGenre {
+    id: number;
+    name: string;
+}
 export interface IMovieDetails {
     id: number;
     title: string;
@@ -10,6 +12,6 @@ export interface IMovieDetails {
     vote_average: number;
     vote_count: number;
     popularity: number;
-    genres: IGenre[];
     runtime: number | null;
+    genres: IMovieDetailsGenre[];
 }

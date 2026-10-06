@@ -13,9 +13,7 @@
     color: #222;
     font-size: 14px;
     outline: none;
-    transition:
-            border-color 0.2s ease,
-            box-shadow 0.2s ease;
+    transition: border-color 0.2s ease,box-shadow 0.2s ease;
 }
 .search input::placeholder {
     color: #999;
@@ -33,9 +31,7 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition:
-            background-color 0.2s ease,
-            transform 0.2s ease;
+    transition:background-color 0.2s ease,transform 0.2s ease;
 }
 .search button:hover {
     background-color: #333;

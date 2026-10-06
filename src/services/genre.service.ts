@@ -5,6 +5,7 @@ export interface IGenresResponse {
     genres: IGenre[];
 }
 export const getGenres = async (): Promise<IGenresResponse> => {
-    const response = await api.get<IGenresResponse>("/genre/movie/list");
+    const response =
+        await api.get<IGenresResponse>("/genre/movie/list");
     return response.data;
 };

@@ -1,0 +1,31 @@
+.movie-details-page {
+    width: min(1200px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 30px 0 50px;
+}
+.back-to-movies {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.back-to-movies:hover {
+    text-decoration: underline;
+}
+.movie-details-loading, .movie-details-error {
+    margin: 30px 0;
+    text-align: center;
+}
+.movie-details-error {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #2a1616;
+    color: #ff8a8a;
+}
+@media (max-width: 600px) {
+    .movie-details-page {
+        width: calc(100% - 30px);
+        padding-top: 20px;
+    }
+}
